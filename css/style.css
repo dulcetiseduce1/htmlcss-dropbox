@@ -78,6 +78,10 @@ header {
   border-bottom: 1px solid lightgrey;
 }
 
+.header-link{
+  margin-left: 10px;
+}
+
 .col.w-50 {
   width: 50%;
   height: 80px;
@@ -544,7 +548,12 @@ li {
     padding-left:0px;
 }
 
-a{
+span a{
     text-decoration: none;
     color:blue;
+}
+
+a {
+  text-decoration: none;
+  color:inherit
 }
